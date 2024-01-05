@@ -6,8 +6,8 @@ const siteMetadata = {
     'Seja protagonista no desenvolvimento front-end. Aprenda as habilidades essenciais de um desenvolvedor e transforme suas ideias em interfaces visuais atraentes e funcionais.',
   language: 'pt-br',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://anderson-andre.netlify.app/',
-  siteRepo: 'https://github.com/Anderson-Andre-P/ceto-vida-blog',
+  siteUrl: 'https://cetovida.netlify.app/',
+  siteRepo: 'https://github.com/Anderson-Andre-P/CetoVida-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/profile-pic.png',
   socialBanner: '/static/images/banner-card.png',
@@ -42,7 +42,7 @@ const siteMetadata = {
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
-      repo: 'Anderson-Andre-P/Ceto-Vida-blog',
+      repo: 'Anderson-Andre-P/CetoVida-blog',
       repositoryId: 'R_kgDOJ2tVXg',
       category: 'General',
       categoryId: 'DIC_kwDOJ2tVXs4CbHvG',
@@ -67,7 +67,7 @@ const siteMetadata = {
     utterancesConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://utteranc.es/
-      repo: 'https://github.com/Anderson-Andre-P/Ceto-Vida-blog',
+      repo: 'https://github.com/Anderson-Andre-P/CetoVida-blog',
       issueTerm: 'title', // supported options: pathname, url, title
       label: 'Comment 💬', // label (optional): Comment 💬
       // theme example: github-light, github-dark, preferred-color-scheme
