@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Ceto Vida Blog</title>
+      <link>https://anderson-andre.netlify.app//blog</link>
+      <description>Seja protagonista no desenvolvimento front-end. Aprenda as habilidades essenciais de um desenvolvedor e transforme suas ideias em interfaces visuais atraentes e funcionais.</description>
+      <language>pt-br</language>
+      <managingEditor>eleu.ander@gmail.com (Ceto Vida)</managingEditor>
+      <webMaster>eleu.ander@gmail.com (Ceto Vida)</webMaster>
+      <lastBuildDate>Thu, 30 Nov 2023 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://anderson-andre.netlify.app//feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://anderson-andre.netlify.app//blog/my-fancy-title</guid>
+    <title>Como consumir APIs no Flutter utilizando Dio e HTTP</title>
+    <link>https://anderson-andre.netlify.app//blog/my-fancy-title</link>
+    <description>Consumir APIs é uma prática comum para desenvolvedores, facilitando o compartilhamento de dados externos com suas aplicações, desde informações de usuários em nuvens até transações financeiras. No contexto do ecossistema Flutter, a biblioteca Dio se destaca como uma escolha popular para realizar requisições HTTP, proporcionando robustez. Este artigo explora estratégias eficazes para enfrentar desafios e lidar com erros ao consumir APIs usando o Dio.</description>
+    <pubDate>Thu, 30 Nov 2023 00:00:00 GMT</pubDate>
+    <author>eleu.ander@gmail.com (Ceto Vida)</author>
+    <category>Flutter</category><category>Dio</category><category>HTTP</category>
+  </item>
+
+    </channel>
+  </rss>
