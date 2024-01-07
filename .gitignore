@@ -4,10 +4,10 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+
+.next/
 
 # Dependency directories
 node_modules/
