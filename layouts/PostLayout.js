@@ -74,7 +74,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           {author.github && (
                             <Link
                               href={author.github}
-                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                              className="text-green-500 hover:text-green-600 dark:hover:text-green-400"
                             >
                               {author.github.replace('https://github.com/', '@')}
                             </Link>
@@ -114,7 +114,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Último artigos
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-green-500 hover:text-green-600 dark:hover:text-green-400">
                           <Link href={`/blog/${prev.slug}`}>{prev.title}</Link>
                         </div>
                       </div>
@@ -124,7 +124,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Próximo artigo
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                        <div className="text-green-500 hover:text-green-600 dark:hover:text-green-400">
                           <Link href={`/blog/${next.slug}`}>{next.title}</Link>
                         </div>
                       </div>
@@ -135,7 +135,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="pt-4 xl:pt-8">
                 <Link
                   href="/blog"
-                  className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                  className="text-green-500 hover:text-green-600 dark:hover:text-green-400"
                 >
                   &larr; Voltar para o Blog
                 </Link>
