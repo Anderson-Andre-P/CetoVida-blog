@@ -106,7 +106,7 @@ export default function Home({ posts }) {
         </div>
       </div>
 
-      <div className="content mb-8">
+      {/* <div className="content mb-8">
         <h2 className="mb-2 text-xl font-bold text-zinc-800 dark:text-white">Projetos</h2>
         <p className="max-w-[46ch] leading-relaxed text-zinc-500 dark:text-slate-300">
           Uma seleção dos nossos principais trabalhos realizados nos últimos anos...
@@ -124,7 +124,7 @@ export default function Home({ posts }) {
             />
           ))}
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

@@ -15,6 +15,9 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      listStyleImage: {
+        checkmark: 'url("/static/images/Check.png")',
+      },
       spacing: {
         '9/16': '56.25%',
       },
